@@ -68,7 +68,7 @@ Create an API key in the dashboard, then:
 
 ```bash
 # Ingest + analyze (multipart). Use your deployment base URL.
-curl -sS -X POST "https://YOUR_HOST/api/v1/documents/" \
+curl -sS -X POST "https://tampercheck.ai/api/v1/documents/" \
   -H "Authorization: Bearer dt_YOUR_API_KEY" \
   -F "document=@./contract.pdf" \
   -F "mode=async"
